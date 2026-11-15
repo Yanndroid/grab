@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       repo-url:
-        description: 'git clone url'
+        description: 'https://github.com/samuelpooon/sales_tracker.git'
         required: true
       repo-commit:
         description: 'commit'
